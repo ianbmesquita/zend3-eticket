@@ -12,5 +12,11 @@
  */
 
 return [
-    // ...
+    'db' => [
+        'driver' => 'Pdo_Mysql',
+        'host' => 'localhost',
+        'database' => 'eticket',
+        'username' => 'root',
+        'password' => 'root'
+    ]
 ];
